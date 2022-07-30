@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
 import { Header } from "./base/Header";
+import { Footer } from './base/Footer';
 
 const DefaultLayout = ({ children, title, descriptionHead, descriptionSection } : any) => {
    const titlePage = title == undefined ? 'Iván Fretes' : title + ' - Iván Fretes';
@@ -44,13 +45,7 @@ const DefaultLayout = ({ children, title, descriptionHead, descriptionSection } 
          </div>
       </div>
 
-      <footer className="footer mt-5">
-         <div className="content has-text-centered">
-            <p>
-               <strong>{'Iván Fretes'}</strong><br></br> Hecho con ♥ en React + Next + Bulma
-            </p>
-         </div>
-      </footer>
+      <Footer/>
       </>
   );
 }
