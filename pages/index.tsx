@@ -7,10 +7,13 @@ const  IndexPage: NextPage = () => {
       descriptionSection="Apasionado por aprender, leer, dibujar y programar.">
     <div>
       <p className='mb-3'>
-         Programador con más de 10 años en el mundo del software y aprendizaje continuo, me dan experiencia para analizar, diseñar, construir e integrar funciones. Tuve la oportunidad de integrarme a proyectos para diversas áreas y sectores (Hoteles, Agencias de Viajes, Universidades, Inmobiliarias, etc). 
+         Más de 10 años en consultoria y desarrollo que me brindan la experiencia para analizar, diseñar, construir e integrar software.
       </p>
       <p className='mb-3'>
-         Me adapto a tecnologías y metodologías fácilmente. Apunto a ser autodidacta, todos los día busco aprender por mi cuenta.
+         Durante los últimos años me integre a células de diversas áreas y sectores. Principalmente en la modalidad remota.
+      </p>
+      <p className="mb-3">
+         Cuento con experiencia en metodologías ágiles (Scrum, Kanban, XP). Me adapto fácilmente a diferentes stacks tecnológicos. Apunto a ser autodidacta, cada día busco seguir aprendiendo.
       </p>
       <hr></hr>
     </div>
