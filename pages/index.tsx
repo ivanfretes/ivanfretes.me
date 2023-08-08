@@ -31,6 +31,9 @@ const  IndexPage: NextPage = () => {
          <div className="column has-background-primary has-text-white m-2 ">
             Node + ... + Nest 
          </div>
+         <div className="column has-background-primary has-text-white m-2 ">
+            Python + ... + Django/Flask
+         </div>
       </div>
    </div>
    <div>
@@ -53,6 +56,9 @@ const  IndexPage: NextPage = () => {
          </div>
          <div className="column has-background-light m-2 ">
             Neo4j
+         </div>
+         <div className="column has-background-light m-2 ">
+            Firebase
          </div>
       </div>
    </div>
@@ -84,6 +90,27 @@ const  IndexPage: NextPage = () => {
          </div>
          <div className="column has-background-warning m-2 ">
             Jest
+         </div>
+      </div>
+   </div>
+
+   <div>
+      <h3 className="is-size-5">
+         Infraestructura (DevOps)
+      </h3>
+      
+      <div className="columns my-5 ">
+         <div className="column has-background-secondary m-2 ">
+            Docker
+         </div>
+         <div className="column has-background-secondary m-2 ">
+            AWS
+         </div>
+         <div className="column has-background-secondary m-2 ">
+            GCP
+         </div>
+         <div className="column has-background-secondary m-2 ">
+            DO
          </div>
       </div>
    </div>
